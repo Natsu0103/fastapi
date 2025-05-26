@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database imports
-from database.base import Base, engine
+from database import Base, engine
 
 # Import models to ensure they're registered with SQLAlchemy
 import models
